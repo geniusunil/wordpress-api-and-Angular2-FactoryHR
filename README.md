@@ -1,3 +1,10 @@
+# wordpress-api-and-Angular2-FactoryHR
+This code fetches posts, users and everything from a wordpress site and display them in an angular app.
+Working code as a result of tutorial https://medium.com/@factoryhr/how-to-use-wordpress-api-and-angular-2-cab636176548.
+
+
+
+
 # MyApp
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 7.1.2.
