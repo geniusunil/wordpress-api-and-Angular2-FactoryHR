@@ -37,7 +37,8 @@ export class PostsService {
 }
 
 loadPosts(): Observable<Array<Post>> {
-let url = "http://localhost/xo/?rest_route=/wp/v2/posts"; //I used my wordpress site at "localhost/xo/""
+    
+let url = "http://www.kynetweb.com/cerdittocorp/wp-json/wp/v2/posts"; //I used my wordpress site at "localhost/xo/""
 
 return this._http.get<Array<Post>>(url);
 }
@@ -65,7 +66,7 @@ public getPost(slug: string): Observable<Post> {
 }
 
 loadPost(slug: string): Observable<Post>{
-let url = "http://localhost/xo/?rest_route=/wp/v2/posts?slug="+slug;
+let url = "http://www.kynetweb.com/cerdittocorp/wp-json/wp/v2/posts?slug="+slug;
 return this._http.get<Post>(url);
 }
 
