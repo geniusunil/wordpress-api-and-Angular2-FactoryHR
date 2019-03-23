@@ -1,2 +1,0 @@
-<?php
-//Speak no evil
